@@ -1,0 +1,134 @@
+ 2007  ../../
+ 2008  ..
+ 2009  challenge_activity
+ 2010  git init
+ 2011  git remote add origin git@github.com:jmischung/uwFinTech_module2_challenge.git
+ 2012  git remote -v
+ 2013  git pull
+ 2014  ls -l
+ 2015  git branch --set-upstream-to=origin/main
+ 2016  git remote add upstream git@github.com:jmischung/uwFinTech_module2_challenge.git
+ 2017  git pull
+ 2018  git pull origin main
+ 2019  git status
+ 2020  ls -l
+ 2021  git status
+ 2022  git add .
+ 2023  git commit -m "initial commit"
+ 2024  git push
+ 2025  git push --set-upstream origin main
+ 2026  exit
+ 2027  module_2/module_activities
+ 2028  touch cli.py
+ 2029  python cli.py
+ 2030  python cli.py --pants=True
+ 2031  add_fire_to_loan_qualifier_app
+ 2032  Unsolved
+ 2033  python app.py
+ 2034  python app.py --credit_score=750
+ 2035  python app.py --credit_score=600 --debt=5000 --income=45000
+ 2036  ../..
+ 2037  touch dialog.py
+ 2038  python dialog.py
+ 2039  add_questionary_to_loan_qualifier/Unsolved
+ 2040  python app.py
+ 2041  python app.py --credit_score=750 --debt=5000 --income=20000
+ 2042  python app.py
+ 2043  git config --list
+ 2044  ../..
+ 2045  ../
+ 2046  conda install -c conda-forge bpython
+ 2047  exit
+ 2048  class_activities
+ 2049  ls -l
+ 2050  20211130_lessons_1-2
+ 2051  ls -l
+ 2052  01_Stu_Python_Code_Drills/Unsolved
+ 2053  python 01-variables-01
+ 2054  ls -l
+ 2055  01-variables-01
+ 2056  Unsolved
+ 2057  python variables-01.py
+ 2058  ../../02-lists-01/Unsolved
+ 2059  python lists-01.py
+ 2060  ../..
+ 2061  ..
+ 2062  exit
+ 2063  Documents/uw/finTech_bootCamp_2021/module_2/module_activities
+ 2064  touch README.md
+ 2065  ../..
+ 2066  touch template_README.md
+ 2067  module_1/challenge_activity
+ 2068  ls -l
+ 2069  python loan_analyzer.py
+ 2070  git status
+ 2071  git add .
+ 2072  git commit -m "Update README.md, add images directory with images"
+ 2073  git push
+ 2074  git remote set-url origin git@github.com:jmischung/Automated-Loan-Valuation.git
+ 2075  git push -u origin main
+ 2076  ../../module_2/challenge_activity
+ 2077  git remote set-url origin git@github.com:jmischung/CSV-Loan-Generator.git
+ 2078  git push -u origin main
+ 2079  exit
+ 2080  Documents/trading
+ 2081  ls -l
+ 2082  quantStart_successfulAlgorithmicTrading
+ 2083  ls -l
+ 2084  jupyter lab
+ 2085  exit
+ 2086  history 50
+ 2087  git status
+ 2088  module_2/challenge_activity
+ 2089  git status
+ 2090  git add .
+ 2091  git commit -m "add starter code to repo, add .DS_Store to .gitignore"
+ 2092  git push
+ 2093  Downloads
+ 2094  exit
+ 2095  ../..
+ 2096  module_2/class_activities
+ 2097  ls -l
+ 2098  20211202_lessons_3-4
+ 2099  ls -l
+ 2100  02_Stu_Build_ATM_Functions/Unsolved
+ 2101  ls -l
+ 2102  atm
+ 2103  ls -l
+ 2104  python atm.py
+ 2105  exit
+ 2106  module_1/challenge_activity
+ 2107  ls -l
+ 2108  python loan_analyzer.py
+ 2109  ../../module_2/module_activities
+ 2110  python loan_qualifier_filtering_data/Unsolved/app.py
+ 2111  loan_qualifier_filtering_data/Unsolved
+ 2112  python app.py
+ 2113  ../../../../module_2/challenge_activity
+ 2114  git status
+ 2115  git add .
+ 2116  git commit -m "Create save_csv function in app.py"
+ 2117  git status
+ 2118  git add .
+ 2119  git commit -m "Move save_csv to fileio.py and docstring, add __init__.py to utils directory."
+ 2120  ls -l
+ 2121  python app.py
+ 2122  git status
+ 2123  git add .
+ 2124  git commit -m "Add save question to CLI, fix bug in save_csv function, test modified CLI"
+ 2125  git push
+ 2126  python app.py
+ 2127  git status
+ 2128  git add .
+ 2129  git commit -m "Add acceptance criteria: if no qualifying loans notify user and exit program."
+ 2130  git push
+ 2131  Documents/uw/finTech_bootCamp_2021/module_2/challenge_activity
+ 2132  conda env list
+ 2133  conda activate uwft-py37
+ 2134  python app.py
+ 2135  git status
+ 2136  git add .
+ 2137* git reset qualifying_loans.csv
+ 2138* git status
+ 2139* git commit -m "Fill in README file and add images"
+ 2140* git push
