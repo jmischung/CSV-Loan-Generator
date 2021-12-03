@@ -111,7 +111,15 @@ def save_qualifying_loans(qualifying_loans):
         qualifying_loans (list of lists): The qualifying bank loans.
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
-    # YOUR CODE HERE!
+    # Ask the user if they want to save the qualifying loans to a CSV file.
+    save_loans = questionary.confirm("Would you like to save the qualifying loans to a CSV file?").ask()
+
+    if save_loans:
+        file_path = questionary.text("Please provide the path to the directory where you would like to save the CSV file.").ask()
+        save_csv(qualifying_loans, file_path)
+        sys.exit("The qualifying loans have successfully been saved as qualifying_loans.csv in the directory that you specified.")
+    else:
+        sys.exit("Thank you for using the loan qualifying app.")
 
 
 def run():

@@ -31,7 +31,7 @@ def load_csv(csvpath):
     return data
 
 
-def save_csv(qualifying_loans):
+def save_csv(qualifying_loans, file_path):
     """
     Save qualifying loans as a csv to the directory where the
     app is running.
@@ -40,9 +40,11 @@ def save_csv(qualifying_loans):
     ----------
     qualifying_loans : 'dict'
         A dictionary of qualifying loans.
+    file_path : 'string'
+        The path to the directory where the CSV will be saved.
     """
     # File name for the qualifying loans CSV.
-    output_path = Path("qualifying_loans.csv")
+    output_path = Path(file_path + "qualifying_loans.csv")
 
     # Save the qualifying loans in the current working directory.
     with open(output_path, 'w', newline='') as csvfile:
@@ -51,4 +53,4 @@ def save_csv(qualifying_loans):
 
         # Write the qualifying loans to the CSV file.
         for loan in qualifying_loans:
-            csvwriter.writerow(loan.values())
+            csvwriter.writerow(loan)
